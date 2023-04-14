@@ -1,0 +1,71 @@
+body{
+    /* background-color: aquamarine; */
+    /* max-height: fit-content; */
+   /* background-size:cover; */
+    background-size: cover;
+    /* In the above stuff along with the content the image is also getting scrolled to avoid follow below thing*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-image: url("https://img1.wallspic.com/crops/2/0/5/5/6/165502/165502-pattern-azure-mesh-purple-grey-3840x2160.png");
+    background-attachment:fixed;  
+    height: 100%;
+    width: 100%;
+
+
+}
+.maincontainer{
+    font-family: 'Poppins', sans-serif;
+    height: 950px;
+    width: 100%;
+    
+    /* background-attachment: scroll !important; */
+    /* background-color: aquamarine; */
+
+}
+.container{
+    padding-top: 5px;
+    margin-top: 50px;
+    /* border: 2px solid  ; */
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px 1px #867070;
+    height: 300px;
+    width: 150px;
+    background-color: #F5EBEB
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.head_title{
+    display: flex;
+}
+
+.head_Title{
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0px 0px 10px;
+}
+.form-02{
+    margin-left: 10px;
+    width: 220px !important;
+}
+.button-01{
+    margin-left: 10px;
+}
+.card{
+    margin-top: 10px;
+}
+#excel_data{
+    overflow-x: scroll;
+    border: 2px dashed antiquewhite;
+    width: auto;
+    border-radius: 10px;
+    font-size: small; 
+    color: antiquewhite;  
+}
+.forum{
+    display: flex;
+    justify-content: space-between;
+}

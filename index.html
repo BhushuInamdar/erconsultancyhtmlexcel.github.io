@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER Consulting | Mission with Vision</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="imp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="maincontainer">
+        <nav class="navbar bg-body-tertiary bg-dark">
+            <div class="container-fluid">
+                <div class="navbar-brand navHead" href="#">
+                    <div class="head_title">
+                        <img src="Picture1.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+                        <div class="head_Title"><marquee class="head_move" direction="right" behavior="right">Welcome to ER Consulting</marquee></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            <div class="container">
+                <h2 class="text-container mt-4 mb-4">Place where dreams meet opportunities</h2>
+                <!-- <div>
+                    <input type="text" name="" id="myInput" placeholder="Search the name" onkeyup="searchFun()">
+                </div> -->
+                <div class="search_pri_skill">
+                    <form class="d-flex forum" role="search">
+                        <input class="form-control me-2 form-01" id = "myInput" style="width: 345px;" type="search" placeholder="Search by primary and secondary skills" aria-label="Search" onkeyup="searchFun()">
+                        <input class="form-control me-2 form-02" id = "myInputimp" style="width: 205px;" type="search" placeholder="Search by experience" onkeyup="searchFunimp()" 
+                         aria-label="Search">
+                         <input class="form-control me-2 form-02" id = "myInputimpmore" style="width: 190px;" type="search" placeholder="Searching for company" onkeyup="searchFunimpmore()"
+                         aria-label="Search" required>
+                        <!-- <button class="btn button-01" href = "imp.html">Search</button> -->
+                    </form>
+                </div>
+                <div class="card">
+                    <div class="card-header"><b>Select Excel File</b></div>
+                    <div class="card-body">
+                        <input type="file" id="excel_file" />
+                    </div>
+                </div>
+                <div id="excel_data" class="mt-5" ></div>
+            </div>
+    </div>
+ 
+    <script src="imp.js" charset="utf-8"></script>
+</body>
+</html>
